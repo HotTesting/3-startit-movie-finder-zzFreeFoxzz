@@ -2,12 +2,14 @@
   "name": "startit-movie-finder",
   "version": "0.0.1",
   "private": true,
-  "description": "Demonstration project for students. Feburary 16",
+  "description": "Demonstration project",
   "scripts": {
     "postinstall": "webdriver-manager update",
     "test": "protractor"
   },
   "dependencies":{
-    "protractor": "^5.1.1"
+    "protractor": "^5.1.1",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "jasmine2-reporter": "^0.3.0"
   }
 }
